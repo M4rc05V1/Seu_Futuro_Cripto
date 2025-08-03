@@ -1,0 +1,108 @@
+/* binancecoin.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #181a20; 
+  color: #eaecef; 
+  line-height: 1.6;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #f3ba2f; 
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #f3ba2f;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+h2 {
+  color: #f3ba2f;
+  font-size: 1.8rem;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #d8a600;
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+
+p {
+  color: #e0e3e7;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #f3ba2f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffe780;
+}
+
+.onde-investir {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #f3ba2f;
+  border-radius: 10px;
+  background-color: #1f2229;
+}
+
+.btn-voltar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+    background-color: #f3ba2f;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #be8c0d;
+}
+
+.btn-voltar img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .main {
+    padding: 20px 15px;
+  }
+}

@@ -1,10 +1,10 @@
-/* solana.css */
+/* ripple.css */
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #0a0d1b; 
+  background-color: #0e1014; 
   color: #f0f0f0;
   line-height: 1.6;
 }
@@ -16,24 +16,25 @@ body {
 }
 
 h1 {
-  color: #14f195; 
+  color: #00aaff;
   font-size: 2.5rem;
   margin-bottom: 20px;
   text-align: center;
-  border-bottom: 2px solid #14f195;
+  border-bottom: 2px solid #00aaff;
   padding-bottom: 30px;
   padding-top: 30px;
+  
 }
 
 h2 {
-  color: #00ffe0; 
+  color: #66c2ff;
   font-size: 1.8rem;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
 h3 {
-  color: #24c3b8; 
+  color: #b0bec5; 
   font-size: 1.3rem;
   margin-top: 30px;
 }
@@ -54,21 +55,21 @@ ul li {
 }
 
 a {
-  color: #14f195;
+  color: #00aaff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #00ffe0;
+  color: #66c2ff;
 }
 
 .onde-investir {
   margin-top: 50px;
   padding: 20px;
-  border: 1px solid #14f195;
+  border: 1px solid #00aaff;
   border-radius: 10px;
-  background-color: #111827;
+  background-color: #1c1f26;
 }
 
 .btn-voltar {
@@ -76,20 +77,26 @@ a:hover {
   top: 20px;
   left: 20px;
   z-index: 9999;
-  background-color: #14f195;
+  background-color: #00aaff;
   padding: 8px;
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
 
 .btn-voltar:hover {
-  background-color: rgba(20, 241, 149, 0.8);
+  background-color: rgba(0, 170, 255, 0.8);
 }
 
 .btn-voltar img {
   width: 24px;
   height: 24px;
   display: block;
+}
+
+canvas {
+  width: 100% !important;
+  max-width: 700px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
